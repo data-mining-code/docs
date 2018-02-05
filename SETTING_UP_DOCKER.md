@@ -36,8 +36,8 @@ Next up, we need to get you set up with the application repositories. For this y
 mkdir data-mining
 cd data-mining
 git clone https://github.com/data-mining-code/compose
-git clone https://github.com/data-mining-code/frontend
-git clone https://github.com/data-mining-code/broker
+cd compose
+./install.sh
 ```
 
 This will set up all of the local components you need to run the Docker Compose network. Now, move into the directory and start the network:
