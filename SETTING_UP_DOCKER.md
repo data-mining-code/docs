@@ -40,14 +40,7 @@ cd compose
 ./install.sh
 ```
 
-This will set up all of the local components you need to run the Docker Compose network. Now, move into the directory and start the network:
-
-```sh
-cd compose
-docker-compose up -d
-```
-
-The `-d` flag ensures that the network keeps running in the background, not blocking your command line. If you want to stop or restart the network, you can use these commands:
+This will set up all of the local components you need to run the Docker Compose network, and automatically starts it. If you want to stop or restart the network, you can use these commands:
 
 ```sh
 # For restarting:
