@@ -2,7 +2,7 @@
 
 Before we start, it might be useful to be aware of what Docker _is_. This is what its Wikipedia article says:
 
-> Docker is a software technology providing operating-system-level virtualization also known as containers, promoted by the company Docker, Inc.[6] Docker provides an additional layer of abstraction and automation of operating-system-level virtualization on Windows and Linux.
+> Docker is a software technology providing operating-system-level virtualization also known as containers, promoted by the company Docker, Inc. Docker provides an additional layer of abstraction and automation of operating-system-level virtualization on Windows and Linux.
 
 Whoa, that's... a lot of complicated words. To make it more simple, Docker is a software that lets you run little separate operating systems under your main operating system. It does a bunch of clever things so that these mini operating systems don't take up that much disk space and RAM, meaning you can run a lot of them at the same time! Why is this useful? Because different applications have different software requirements, and this is a way to effectively isolate different applications into completely different spaces. They can still interact with each other through local networking, and using a software called __Docker Compose__, we can make it even easier to coordinate these applications.
 
